@@ -5,4 +5,5 @@
 --It shouldn't change anything
 5. npm install @babel/preset-env --save-dev 
 6. create .babelrc file in root directory and include the presets for babel...{ "presets": ["@babel/preset-env" ]}
-7. 
+7. create .env file, write my_secret = my secret!!1
+8. index.js, import dotenv/config and other import statements that will work if they have been exported.
