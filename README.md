@@ -7,3 +7,5 @@
 6. create .babelrc file in root directory and include the presets for babel...{ "presets": ["@babel/preset-env" ]}
 7. create .env file, write my_secret = my secret!!1
 8. index.js, import dotenv/config and other import statements that will work if they have been exported.
+
+source of information: https://www.robinwieruch.de/minimal-node-js-babel-setup
